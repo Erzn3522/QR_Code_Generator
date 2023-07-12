@@ -6,7 +6,7 @@ if __name__ == '__main__':
     folder_controller.create_images_folder()
     image_path = folder_controller.get_images_path()
 
-    ssid = "wiif_network_name"
+    ssid = "wifi_network_name"
     password = "wifi_password"
 
     wifi_qr_generator = WifiQrCodeCreator()
